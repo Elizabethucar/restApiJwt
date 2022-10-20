@@ -3,6 +3,10 @@ const getGoals = (req, res)=>{
   res.status(200).json({message:'get goals'})
 }
 const setGoal = (req, res)=>{
+  if(!req.body.text){
+    res.status(400)
+    
+  }
   res.status(200).json({message:'post goals'})
 }
 const updateGoal = (req, res)=>{
