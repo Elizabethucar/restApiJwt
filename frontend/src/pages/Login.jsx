@@ -33,7 +33,6 @@ function Login() {
     <section className='form'>
       <form onSubmit={onSubmit}>
     
-
         <div className="form-group">
         <input type='email' 
          className='form-control' 
