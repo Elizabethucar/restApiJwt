@@ -48,7 +48,7 @@ function Login() {
     }
     dispatch(login(userData))
   }
-  
+
   if(isLoading){
     return <Spinner />
    }
@@ -85,7 +85,6 @@ function Login() {
           onChange={onChange} />
         </div>
 
-      
        <div className='form-group'>
         <button type='submit' className='btn btn-blocj'>Submit</button>
        </div>
